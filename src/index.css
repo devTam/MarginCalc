@@ -59,6 +59,8 @@ body {
   max-width: 520px;
   margin: 0 auto;
   padding: 24px 16px 40px;
+  padding-top: max(24px, env(safe-area-inset-top));
+  padding-bottom: max(40px, env(safe-area-inset-bottom));
 }
 
 /* Header */
